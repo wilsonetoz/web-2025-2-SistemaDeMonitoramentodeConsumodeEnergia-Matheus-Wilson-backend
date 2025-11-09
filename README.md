@@ -34,3 +34,22 @@ Este repositório contém o **backend** da aplicação, responsável por:
 ```bash
 git clone https://github.com/usuario/web-2025-2-SistemaDeMonitoramentodeConsumodeEnergia-Matheus-Wilson-backend.git
 cd web-2025-2-SistemaDeMonitoramentodeConsumodeEnergia-Matheus-Wilson-backend
+```
+### 2. Crie e ative o ambiente virtual:
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
+### 3. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+### 4. Execute o servidor:
+```bash
+uvicorn main:app --reload
+```
+### 5. Acesse a API:
+
+Documentação automática: http://127.0.0.1:8000/docs
+
