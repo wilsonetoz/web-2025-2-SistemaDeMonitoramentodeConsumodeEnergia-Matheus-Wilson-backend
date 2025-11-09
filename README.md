@@ -1,5 +1,5 @@
 # web-2025-2-SistemaDeMonitoramentodeConsumodeEnergia-Matheus-Wilson-backend
-# ⚡ Sistema de Monitoramento de Consumo de Energia (Energia+) - Backend
+# ⚡ Sistema de Monitoramento de Consumo de Energia - Backend
 
 ## 👥 Integrantes
 - Antônio Matheus de Oliveira Lima
