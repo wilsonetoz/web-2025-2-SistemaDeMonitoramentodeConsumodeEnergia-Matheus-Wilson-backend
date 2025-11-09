@@ -8,7 +8,7 @@
 ---
 
 ## 📝 Descrição do Projeto
-O **Energia+** é um sistema web desenvolvido para registrar, monitorar e analisar o consumo de energia elétrica em diferentes períodos.  
+É um sistema web desenvolvido para registrar, monitorar e analisar o consumo de energia elétrica em diferentes períodos.  
 O objetivo é permitir que usuários acompanhem seu gasto em kWh e custo estimado, auxiliando na **consciência energética e sustentabilidade**.
 
 Este repositório contém o **backend** da aplicação, responsável por:
