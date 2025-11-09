@@ -1,0 +1,1 @@
+# web-2025-2-SistemaDeMonitoramentodeConsumodeEnergia-Matheus-Wilson-backend
