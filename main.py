@@ -1,12 +1,11 @@
 from fastapi import FastAPI
-from routers import consumo, login
+from routers import consumo, login, auth, meta
 from database import Base, engine
 import models
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-origins = ["*"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -15,9 +14,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 Base.metadata.create_all(bind=engine)
+app.include_router(auth.router)
 app.include_router(login.router)
 app.include_router(consumo.router)
+app.include_router(meta.router)
 
 @app.get("/")
 def root():
-    return {"message": "API está rodando 🚀"}
+    return {"message": "API está rodando"}
