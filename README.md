@@ -11,10 +11,7 @@
 É um sistema web desenvolvido para registrar, monitorar e analisar o consumo de energia elétrica em diferentes períodos.  
 O objetivo é permitir que usuários acompanhem seu gasto em kWh e custo estimado, auxiliando na **consciência energética e sustentabilidade**.
 
-Este repositório contém o **backend** da aplicação, responsável por:
-- Gerenciar o banco de dados;
-- Processar registros de consumo;
-- Oferecer uma API RESTful para o frontend.
+Este repositório contém o **backend** da aplicação Sistema de Monitoramento de Consumo de Energia, desenvolvido em FastAPI, responsável por autenticação, regras de negócio e persistência dos dados.
 
 ---
 
@@ -25,8 +22,17 @@ Este repositório contém o **backend** da aplicação, responsável por:
 - **SQLAlchemy** (ORM)
 - **Uvicorn** (servidor ASGI)
 - **Pydantic** (validação de dados)
+- **JWT** (autenticação)
 
 ---
+## Fluxo Principal do Sistema
+- 1. Usuario se cadastra ou realiza login
+- 2. Define uma meta mensal de consumo(kWh)
+- 3. Registra consumos diários
+- 4. O sistema calcula:
+    - Consumo total
+    - Percentual da meta
+    - Estado da meta: *Normal, *Alerta, *Excedida
 
 ## ⚙️ Instruções para Executar o Projeto
 
