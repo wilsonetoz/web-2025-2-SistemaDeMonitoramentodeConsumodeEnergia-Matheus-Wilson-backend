@@ -26,19 +26,19 @@ Este repositório contém o **backend** da aplicação Sistema de Monitoramento 
 
 ---
 ## Fluxo Principal do Sistema
-- 1. Usuario se cadastra ou realiza login
-- 2. Define uma meta mensal de consumo(kWh)
-- 3. Registra consumos diários
-- 4. O sistema calcula:
+1. Usuario se cadastra ou realiza login
+2. Define uma meta mensal de consumo(kWh)
+3. Registra consumos diários
+4. O sistema calcula:
     - Consumo total
     - Percentual da meta
-    - Estado da meta: *Normal, *Alerta, *Excedida
+    - Estado da meta: **Normal**, **Alerta**, **Excedida**
 
 ## ⚙️ Instruções para Executar o Projeto
 
 ### 1. Clone o repositório:
 ```bash
-git clone https://github.com/usuario/web-2025-2-SistemaDeMonitoramentodeConsumodeEnergia-Matheus-Wilson-backend.git
+git clone https://github.com/wilsonetoz/web-2025-2-SistemaDeMonitoramentodeConsumodeEnergia-Matheus-Wilson-backend.git
 cd web-2025-2-SistemaDeMonitoramentodeConsumodeEnergia-Matheus-Wilson-backend
 ```
 ### 2. Crie e ative o ambiente virtual:
